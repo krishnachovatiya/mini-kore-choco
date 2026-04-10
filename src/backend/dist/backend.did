@@ -1,0 +1,34 @@
+type Timestamp = int;
+type ProductId = text;
+type Product = 
+ record {
+   description: text;
+   id: ProductId;
+   name: text;
+   price: nat;
+ };
+type OrderId = text;
+type OrderConfig = 
+ record {
+   base: text;
+   core: text;
+   crunch: text;
+   finish: text;
+   infusion: text;
+ };
+type Order = 
+ record {
+   config: OrderConfig;
+   createdAt: Timestamp;
+   id: OrderId;
+   totalPrice: nat;
+ };
+service : {
+  addOrder: (config: OrderConfig, totalPrice: nat) ->
+   (variant {
+      err: text;
+      ok: text;
+    });
+  getOrders: () -> (vec Order) query;
+  getProducts: () -> (vec Product) query;
+}

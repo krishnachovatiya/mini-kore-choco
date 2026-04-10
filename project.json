@@ -1,0 +1,29 @@
+{
+  "overview": "mini Kore is a luxury artisanal chocolate boutique — a quiet luxury e-commerce experience featuring an interactive 5-step chocolate configurator where customers build their perfect geometric heart chocolate. The app combines high-fashion aesthetics with Framer Motion animations, a live product visualizer, dynamic pricing, and WhatsApp ordering.",
+  "features": [
+    "Interactive 5-step chocolate configurator with live heart visualization",
+    "360° heart rotation animation on base change",
+    "Particle drop animations for ingredient selection",
+    "Parallax floating ingredients on scroll",
+    "Dynamic real-time pricing starting at ₹80",
+    "WhatsApp deep-link ordering with full config summary",
+    "Product gallery with 3 luxury tiers (₹80, ₹299, ₹899)",
+    "Mobile-first layout with floating WhatsApp action button",
+    "Quiet luxury design: Playfair Display serif, bone white, sage green, aged gold",
+    "Backend order persistence with full configuration storage"
+  ],
+  "category": "e-commerce",
+  "tags": [
+    "chocolate",
+    "luxury",
+    "boutique",
+    "configurator",
+    "whatsapp",
+    "animations",
+    "framer-motion",
+    "mobile-first",
+    "india",
+    "artisanal"
+  ],
+  "last_updated": "2026-04-10T17:29:54.950Z"
+}
